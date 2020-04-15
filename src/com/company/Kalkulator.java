@@ -1,16 +1,16 @@
 package com.company;
 
 public class Kalkulator {
-    int x=0;
-    int y=0;
-    Kalkulator(int x, int y){
+    double x=0;
+    double y=0;
+    Kalkulator(double x, double y){
         this.x=x;
         this.y=y;
     }
-    public void dodaj(int a, int b){
+    public void dodaj(double a, double b){
         System.out.println(a+b);
     }
-    public void odejmij(int a, int b){
+    public void odejmij(double a, double b){
         System.out.println(a-b);
     }
 }

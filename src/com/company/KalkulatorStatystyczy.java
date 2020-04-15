@@ -2,10 +2,10 @@ package com.company;
 
 public class KalkulatorStatystyczy extends Kalkulator{
 
-    KalkulatorStatystyczy(int x, int y) {
+    KalkulatorStatystyczy(double x, double y) {
         super(x, y);
     }
-    public void sinus(){
-        System.out.println();
+    public void sinus(double a){
+        System.out.println(Math.sin(double a));
     }
 }
