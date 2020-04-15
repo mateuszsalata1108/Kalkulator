@@ -1,11 +1,14 @@
 package com.company;
 
-public class KalkulatorStatystyczy extends Kalkulator{
+public class KalkulatorStatystyczy extends Kalkulator {
+    double z = 0;
 
-    KalkulatorStatystyczy(double x, double y) {
+    KalkulatorStatystyczy(double x, double y, double z) {
         super(x, y);
+        this.z=z;
     }
-    public void sinus(double a){
-        System.out.println(Math.sin(double a));
+
+    public void sinus(){
+        System.out.println(Math.sin(z));
     }
 }
